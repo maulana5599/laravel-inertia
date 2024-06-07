@@ -1,0 +1,27 @@
+/* nprogress-custom.css */
+
+/* Customize the progress bar color */
+#nprogress .bar {
+    background: #ff6347; /* Tomato color */
+    height: 5px;        /* Adjust the height */
+    border-radius: 10px;
+}
+
+/* Customize the spinner */
+#nprogress .spinner-icon {
+    border-top-color: #ff6347; /* Change the spinner color */
+    border-left-color: #ff6347; /* Change the spinner color */
+}
+
+/* Position the progress bar at the top */
+#nprogress .bar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/* Optionally, adjust the container */
+#nprogress .peg {
+    box-shadow: 0 0 10px #ff6347, 0 0 5px #ff6347;
+}
